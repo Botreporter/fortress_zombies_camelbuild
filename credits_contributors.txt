@@ -8,7 +8,8 @@ PJX: "Nacht Der Un Toten" Map
 Cryptical: Displacer Texture 
 Justyn0: TF2 Awesome pack PSDs
 
-
+MacRipley: Fuel / Oil Spills 1
+IceFlower: Metaltruss001 variants
 Tiftid: sky_dystopia
 
 https://github.com/justyn0/TF2-Awesome-Pack/

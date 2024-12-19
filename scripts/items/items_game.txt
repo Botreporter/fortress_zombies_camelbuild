@@ -527,12 +527,13 @@
 			"min_ilevel"		"10"
 			"max_ilevel"		"10"
 			"propername"		"1"
-			"attach_to_hands"	"1"
 			"inspect_panel_dist" "50"
 			"image_inventory"	"backpack/workshop/weapons/c_models/c_demo_cannon/c_demo_cannon"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/workshop/weapons/c_models/c_demo_cannon/c_demo_cannon.mdl"
+			"model_world"	"models/workshop/weapons/c_models/c_demo_cannon/c_demo_cannon.mdl"
+			"model_player"	"models/weapons/v_models/v_loosecannon_demo.mdl"
+			"attach_to_hands"	"2"
 			"used_by_classes"
 			{
 				"demoman"	"1"
@@ -1508,14 +1509,6 @@
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"10 -6 -12"
-			}
-			"attributes"
-			{
-				"health regen"
-				{
-					"attribute_class"	"add_health_regen"
-					"value" "50"
-				}
 			}
 			"mouse_pressed_sound"	"ui/item_shovel_pickup.wav"
 			"drop_sound"		"ui/item_shovel_drop.wav"

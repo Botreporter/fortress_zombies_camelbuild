@@ -75,5 +75,8 @@ soundscapes_manifest
 	// gmod
 
 	"file"		"scripts/soundscapes/soundscapes_garrysmod.txt"
+	
+	// Fortress Zombies
+	"file"		"scripts/soundscapes/soundscapes_fortress_zombies.txt"
 
 }

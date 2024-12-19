@@ -297,6 +297,67 @@
 }
 
 //-----------------------------------------------------------------------------
+// Upgrade Box
+//-----------------------------------------------------------------------------
+
+"UpgradeBox.VO"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.9"
+	"soundlevel"  	"SNDLVL_80dB"
+	"pitch"		"95, 105"
+	"rndwave"
+	{
+		"wave"		"upgradebox/upgrade_box_vo01.mp3"
+		"wave"		"upgradebox/upgrade_box_vo02.mp3"
+		"wave"		"upgradebox/upgrade_box_vo03.mp3"
+		"wave"		"upgradebox/upgrade_box_vo04.mp3"
+		"wave"		"upgradebox/upgrade_box_vo05.mp3"
+		"wave"		"upgradebox/upgrade_box_vo06.mp3"
+		"wave"		"upgradebox/upgrade_box_vo07.mp3"
+		"wave"		"upgradebox/upgrade_box_vo08.mp3"
+		"wave"		"upgradebox/upgrade_box_vo09.mp3"
+		"wave"		"upgradebox/upgrade_box_vo10.mp3"
+		"wave"		"upgradebox/upgrade_box_vo11.mp3"
+		"wave"		"upgradebox/upgrade_box_vo12.mp3"
+		"wave"		"upgradebox/upgrade_box_vo13.mp3"
+		"wave"		"upgradebox/upgrade_box_vo14.mp3"
+		"wave"		"upgradebox/upgrade_box_vo15.mp3"
+		"wave"		"upgradebox/upgrade_box_vo16.mp3"
+		"wave"		"upgradebox/upgrade_box_vo17.mp3"
+		"wave"		"upgradebox/upgrade_box_vo18.mp3"
+		"wave"		"upgradebox/upgrade_box_vo19.mp3"
+		"wave"		"upgradebox/upgrade_box_vo20.mp3"
+		"wave"		"upgradebox/upgrade_box_vo21.mp3"
+		"wave"		"upgradebox/upgrade_box_vo22.mp3"
+		"wave"		"upgradebox/upgrade_box_vo23.mp3"
+		"wave"		"upgradebox/upgrade_box_vo24.mp3"
+		"wave"		"upgradebox/upgrade_box_vo25.mp3"
+		"wave"		"upgradebox/upgrade_box_vo26.mp3"
+		"wave"		"upgradebox/upgrade_box_vo27.mp3"
+		"wave"		"upgradebox/upgrade_box_vo28.mp3"
+		"wave"		"upgradebox/upgrade_box_vo29.mp3"
+		"wave"		"upgradebox/upgrade_box_vo30.mp3"
+		"wave"		"upgradebox/upgrade_box_vo31.mp3"
+		"wave"		"upgradebox/upgrade_box_vo32.mp3"
+	}
+}
+
+"UpgradeBox.Music"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.7"
+	"soundlevel"  	"SNDLVL_80dB"
+	"rndwave"
+	{
+		"wave"		"upgradebox/upgrade_box_music01.mp3"
+		"wave"		"upgradebox/upgrade_box_music02.mp3"
+		"wave"		"upgradebox/upgrade_box_music03.mp3"
+		"wave"		"upgradebox/upgrade_box_music04.mp3"
+	}
+}
+
+//-----------------------------------------------------------------------------
 // Zombies
 //-----------------------------------------------------------------------------
 

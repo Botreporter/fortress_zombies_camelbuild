@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_mvm/mvm_upgrade_dirtyglass"
+	"$bumpmap" "models/props_mvm/mvm_upgrade_dirtyglass_n"
+	$translucent 1
+}

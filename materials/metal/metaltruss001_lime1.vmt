@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/metaltruss001"
+	"%compilepassbullets" 1
+	"$surfaceprop" "metalgrate"
+	"%keywords" "tf, iceflower"
+	"$AlphaTest" "1"
+	"$AlphaTestReference" "0.2"
+	"$AllowAlphaToCoverage" "1"
+	"$color" "[.02 .61 .02]"
+}
