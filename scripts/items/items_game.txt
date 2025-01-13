@@ -1602,9 +1602,147 @@
 				"weapon_stattrak_module_scale"			"0.9"
 				"min_viewmodel_offset"					"10 0 -10"
 			}
+			"attributes"
+			{
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "48"
+				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"48"
+				}
+				"mod max primary clip override"
+				{
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"	"8"
+				}
+				"self dmg push force decreased"
+				{
+					"attribute_class"	"mult_dmgself_push_force"
+					"value"		"0.25"
+				}
+			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 			"particle_suffix"		"stickybomb_launcher"
+		}
+		"weapon_lochnload"
+		{
+			"enabled"		"1"
+			"item_class"		"tf_weapon_grenadelauncher"
+			"craft_class"		"weapon"
+			"craft_material_type"		"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"item_logname"	"loch_n_load"
+			"item_iconname"	"loch_n_load"
+			"item_type_name"	"#TF_Weapon_GrenadeLauncher"
+			"item_name"		"#TF_LochNLoad"
+			"item_slot"		"primary"
+			"anim_slot"		"secondary"
+			"item_quality"		"unique"
+			"min_ilevel"		"10"
+			"max_ilevel"		"10"
+			"propername"		"1"
+			"attach_to_hands"	"1"
+			"inspect_panel_dist" "55"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_lochnload/c_lochnload"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/workshop/weapons/c_models/c_lochnload/c_lochnload.mdl"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -10"
+			}
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+			"attributes"
+			{
+				"clip size penalty"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value" "0.75"
+				}
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"1.60"
+				}
+
+				"Projectile speed increased"
+				{
+					"attribute_class"	"mult_projectile_speed"
+					"value" "1.25"
+				}
+				"Blast radius decreased"
+				{
+					"attribute_class"	"mult_explosion_radius"
+					"value"	"0.75"
+				}
+				"sticky air burst mode"
+				{
+					"attribute_class"	"set_detonate_mode"
+					"value"	"2"
+				}
+				"grenade no spin"
+				{
+					"attribute_class"	"grenade_no_spin"
+					"value"	"1"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "30"
+				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"30"
+				}
+				"mod max primary clip override"
+				{
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"	"3"
+				}
+				"self dmg push force decreased"
+				{
+					"attribute_class"	"mult_dmgself_push_force"
+					"value"		"0.5"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"	"Weapon_LochnLoad.Single"
+				"sound_burst"			"Weapon_LochnLoad.SingleCrit"
+				"animation_replacement"
+				{
+					"ACT_RELOAD_START"		"ACT_PRIMARY_RELOAD_START_2"
+					"ACT_VM_RELOAD"			"ACT_PRIMARY_VM_RELOAD_2"
+					"ACT_RELOAD_FINISH"		"ACT_PRIMARY_RELOAD_FINISH_2"
+
+					"ACT_PRIMARY_VM_INSPECT_START"		"ACT_PRIMARY_ALT1_VM_INSPECT_START"
+					"ACT_PRIMARY_VM_INSPECT_IDLE"		"ACT_PRIMARY_ALT1_VM_INSPECT_IDLE"
+					"ACT_PRIMARY_VM_INSPECT_END"		"ACT_PRIMARY_ALT1_VM_INSPECT_END"
+				}
+			}
 		}
 		"weapon_trenchgun"
 		{
@@ -1632,7 +1770,9 @@
 			"propername"		"1"
 			"attach_to_hands"	"1"
 			"image_inventory"	"backpack/workshop/weapons/c_models/c_trenchgun/c_trenchgun"
-			"model_player"	"models/workshop/weapons/c_models/c_trenchgun/c_trenchgun.mdl"
+			"model_world"				"models/weapons/w_models/w_trenchgun.mdl"
+			"model_player"				"models/weapons/v_models/v_trenchgun_engineer.mdl"
+			"attach_to_hands"			"2"
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"10 0 -11"
@@ -1909,7 +2049,7 @@
 				"self dmg push force decreased"
 				{
 					"attribute_class"	"mult_dmgself_push_force"
-					"value"		"3.0"
+					"value"		"0.5"
 				}
 			}
 		}
@@ -2795,19 +2935,6 @@
 			}
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
-		}
-
-		"811"
-		{
-			"name"	"Huo Long Heatmaker"
-			"prefab"		"weapon_long_heatmaker"
-			"show_in_armory"	"1"
-		}
- 		"812"
-		{
-			"name"	"Flying Guillotine"
-			"prefab"		"weapon_guillotine"
-			"show_in_armory"	"1"
 		}
 		"996"
 		{
@@ -3719,27 +3846,6 @@
 				"custom_taunt_prop_per_class"
 				{
 					"demoman"	"models/player/items/taunts/beer_crate/beer_crate.mdl"
-				}
-			}
-		}
-		"1153"
-		{
-			"name"	"Panic Attack Shotgun"
-			"prefab"	"weapon_trenchgun"
-			"particle_suffix"	"panic_attack"
-			"show_in_armory"	"1"
-			"tags"
-			{
-				"can_be_festivized"		"1"
-			}
-			"visuals"
-			{
-				"attached_models_festive"
-				{
-					"0"
-					{
-						"model"	"models/workshop/weapons/c_models/c_trenchgun/c_trenchgun_festivizer.mdl"
-					}
 				}
 			}
 		}
@@ -5053,7 +5159,7 @@
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value"	"0.80"
+					"value"	"0.95"
 				}
 				"damage penalty"
 				{
@@ -5171,7 +5277,7 @@
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value"				"1.1s"
+					"value"				"1.1"
 				}
 				"spread penalty"
 				{
@@ -5436,12 +5542,12 @@
 				"spawn ammo override"
 				{
 					"attribute_class"	"mod_spawn_ammo_override"
-					"value"	"200"
+					"value"	"400"
 				}
 				"max ammo override"
 				{
 					"attribute_class"	"max_ammo"
-					"value" "200"
+					"value" "400"
 				}
 				"bullets per shot bonus"
 				{
@@ -5680,7 +5786,7 @@
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value"	"1.15"
+					"value"	"1.2"
 				}
 				"damage penalty"
 				{
@@ -5826,7 +5932,7 @@
 				"max ammo override"
 				{
 					"attribute_class"	"max_ammo"
-					"value" "400"
+					"value" "300"
 				}
 				"mod max primary clip override"
 				{
@@ -6180,8 +6286,8 @@
 			"show_in_armory"	"1"
 			"item_type_name"	"Raygun"
 			"item_name"	"Raygun"
-			"item_description"	"Do you like my glowing green balls?!"
 			"item_slot"	"secondary"
+			"item_description"	"Do you like my glowing green balls?!"
 			"item_quality"	"unique"
 			"propername"	"1"
 			"min_ilevel"	"1"
@@ -6196,6 +6302,10 @@
 			{
 				"soldier"	"1"
 			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 -3 -10"				
+			}
 			"attributes"
 			{
 				"spawn ammo override"
@@ -6208,10 +6318,6 @@
 					"attribute_class"	"max_ammo"
 					"value" "160"
 				}
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"					"10 -3 -10"				
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -6311,160 +6417,7 @@
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
-		"1524"
-		{
-			"name"	"Raygun MK2" // This also sucks :3 - Vis
-			"prefab"	"valve"
-			"first_sale_date"	"2010/09/29"
-			"item_class"	"tf_weapon_raygunMK2"
-			"craft_class"	"weapon"
-			"craft_material_type"	"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
-			"tags"
-			{
-				"can_deal_damage"		"1"
-				"can_deal_gib_damage"	"1"
-				"can_be_equipped_by_soldier_or_demo"	"1"
-				"can_deal_posthumous_damage"	"1"
-				"can_deal_critical_damage"	"1"
-				"can_deal_long_distance_damage"	"1"
-			}
-			"show_in_armory"	"1"
-			"item_type_name"	"Raygun"
-			"item_name"	"Raygun MKII"
-			"item_slot"	"secondary"
-			"item_quality"	"unique"
-			"propername"	"1"
-			"min_ilevel"	"1"
-			"max_ilevel"	"1"
-			"image_inventory"	"backpack/weapons/c_models/c_directhit/c_directhit"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/v_models/v_raygunmk2/v_bo2_raygunmk2.mdl"
-			"model_world"	"models/weapons/w_models/v_raygunmk2/w_raygun.mdl"
-			"attach_to_hands" "2"
-			"used_by_classes"
-			{
-				"soldier"	"1"
-			}
-			"attributes"
-			{
-				"Burst Fire Size"
-				{
-					"attribute_class"	"burst_size"
-					"value"	"3"
-				}
-				"Burst Fire Delay"
-				{
-					"attribute_class"	"burst_delay"
-					"value"	"0.4"
-				}
-				"spawn ammo override"
-				{
-					"attribute_class"	"mod_spawn_ammo_override"
-					"value"	"162"
-				}
-				"max ammo override"
-				{
-					"attribute_class"	"max_ammo"
-					"value" "162"
-				}
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"					"10 -3 -10"				
-			}
-			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
-			"drop_sound"		"ui/item_heavy_gun_drop.wav"
-		}
-		"1525"
-		{
-			"name"	"Battle Rifle"
-			"item_class"	"tf_weapon_smg"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
-			"tags"
-			{
-				"can_deal_damage"		"1"
-				"can_deal_gib_damage"	"1"
-				"can_be_equipped_by_soldier_or_demo"	"1"
-				"can_deal_posthumous_damage"	"1"
-				"can_deal_critical_damage"	"1"
-				"can_deal_long_distance_damage"	"1"
-			}
-			"item_type_name"	"Scar"
-			"item_name"	"Flakcannon"
-			"item_slot"	"primary"
-			"item_quality"	"unique"
-			"propername"	"1"
-			"min_ilevel"	"1"
-			"max_ilevel"	"1"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/v_models/v_scargl.mdl"
-			"model_world"	"models/weapons/w_models/w_scargl.mdl"
-			"attach_to_hands" "2"
-			"used_by_classes"
-			{
-				"soldier"	"1"
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"					"10 -3 -10"				
-			}
-			"attributes"
-			{
-				"mod max primary clip override"
-				{
-					"attribute_class"	"mod_max_primary_clip_override"
-					"value"	"45"
-				}
-				"damage bonus"
-				{
-					"attribute_class"	"mult_dmg"
-					"value"	"1.2"
-				}
 
-				"spawn ammo override"
-				{
-					"attribute_class"	"mod_spawn_ammo_override"
-					"value"	"315"
-				}
-				"max ammo override"
-				{
-					"attribute_class"	"max_ammo"
-					"value" "315"
-				}
-				"spread penalty"
-				{
-					"attribute_class"	"mult_spread_scale"
-					"value"	"1.3"
-				}
-				"fire rate penalty"
-				{
-					"attribute_class"	"mult_postfiredelay"
-					"value"	"1.4"
-				}
-				"mod underbarrel grenade cost"
-				{
-					"attribute_class"	"mod_underbarrel_ammo_cost"
-					"value"		"15"
-				}
-				"underbarrel grenade"
-				{
-					"attribute_class"	"underbarrel_grenade"
-					"value"		"1"
-				}
-
-			}
-			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
-			"drop_sound"		"ui/item_heavy_gun_drop.wav"
-		}
 		"1524"
 		{
 			"name"	"M1A1"
@@ -6552,6 +6505,260 @@
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
+		}
+		"1525"
+		{
+			"name"	"Battle Rifle"
+			"item_class"	"tf_weapon_assault_rifle"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"item_type_name"	"Scar"
+			"item_name"	"Battle Rifle"
+			"item_slot"	"primary"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"headshot_multiplier" 		"1.6"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/v_models/v_scargl.mdl"
+			"model_world"	"models/weapons/w_models/w_scargl.mdl"
+			"attach_to_hands" "2"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 -3 -10"				
+			}
+			"attributes"
+			{
+				"weapon can headshot"
+				{
+					"attribute_class"	"allow_headshot"
+					"value"	"1"
+				}
+				"mod max primary clip override"
+				{
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"	"45"
+				}
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"4.0"
+				}
+
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"315"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "315"
+				}
+				"spread penalty"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"	"1.2"
+				}
+				"fire rate penalty"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"1.3"
+				}
+				"mod underbarrel grenade cost"
+				{
+					"attribute_class"	"mod_underbarrel_ammo_cost"
+					"value"		"15"
+				}
+				"underbarrel grenade"
+				{
+					"attribute_class"	"underbarrel_grenade"
+					"value"		"1"
+				}
+				"secondary projectile override number"
+				{
+					"attribute_class"	"secondary_projectile_override_number"
+					"value"		"33"
+				}
+
+			}
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+		}
+		"1526"
+		{
+			"name"			"Loch-n-Load"
+			"prefab" "weapon_lochnload"
+			"particle_suffix"	"loch_n_load"
+			"show_in_armory"	"1"
+			"tags"
+			{
+				"can_be_festivized"		"1"
+			}
+			"visuals"
+			{
+				"attached_models_festive"
+				{
+					"0"
+					{
+						"model"	"models/workshop/weapons/c_models/c_lochnload/c_lochnload_festivizer.mdl"
+					}
+				}
+			}
+		}
+		"1528"
+		{
+			"name"						"Panic Attack"
+			"show_in_armory"			"1"
+			"item_class"				"tf_weapon_shotgun"
+			"item_type_name"	"#TF_Weapon_Shotgun"
+			"item_name"	"#TF_Weapon_PanicAttack"
+			"item_logname"	"panic_attack"
+			"item_iconname"	"panic_attack"
+			"anim_slot"					"secondary"
+			"item_slot"					"secondary"
+			"propername"				"1"
+			"model_world"				"models/weapons/w_models/w_trenchgun.mdl"
+			"model_player"				"models/weapons/v_models/v_trenchgun_engineer.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+				"auto fires full clip penalty"
+				{
+					"attribute_class"	""auto_fires_full_clip""
+					"value" "1"
+				}
+				"damage bonus"
+				{
+					"attribute_class" 	"mult_dmg"
+					"value" "2.5"
+				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"				"0.7"
+				}
+				"spread penalty"
+				{
+					"attribute_class" 	"mult_spread_scale"
+					"value" "1.60"
+				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"52"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "52"
+				}
+                "Reload time decreased"
+                {
+                    "attribute_class"    "mult_reload_time"
+                    "value" "0.7"
+                }
+				"bullets per shot bonus"
+				{
+					"attribute_class" 	"mult_bullets_per_shot"
+					"value" "1.5"
+				}
+				"single wep deploy time decreased"
+				{
+					"attribute_class"	"mult_single_wep_deploy_time"
+					"value"	"0.5"
+				}
+				"mod max primary clip override"
+				{
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"	"4"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot" "Weapon_trenchgun.Single"
+			}
+		}
+		"1529"
+		{
+			"name"	"Raygun MK2" // This also sucks :3 - Vis
+			"prefab"	"valve"
+			"item_class"	"tf_weapon_raygunMK2"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_deal_gib_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+				"can_deal_posthumous_damage"	"1"
+				"can_deal_critical_damage"	"1"
+			}
+			"item_type_name"	"Raygun"
+			"item_name"	"Raygun MKII"
+			"item_slot"	"secondary"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/v_models/v_raygunmk2/v_bo2_raygunmk2.mdl"
+			"model_world"	"models/weapons/w_models/v_raygunmk2/w_raygun.mdl"
+			"attach_to_hands" "2"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 -3 -10"				
+			}
+			"attributes"
+			{
+				"Burst Fire Size"
+				{
+					"attribute_class"	"burst_size"
+					"value"	"3"
+				}
+				"Burst Fire Delay"
+				{
+					"attribute_class"	"burst_delay"
+					"value"	"0.4"
+				}
+
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"162"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "162"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
 	}
 	"attributes"
