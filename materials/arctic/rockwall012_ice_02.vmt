@@ -1,0 +1,21 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "arctic/rockwall012_ice"
+	"$basetexture2" "winter/rockwall014"
+	"$blendmodulatetexture" "Nature/snowgrass_blendmask"
+	"$bumpmap2" "Nature/rockwall004_bump-ssbump"
+	"$bumpmap" "Nature/rockwall009_height-ssbump"
+	"$ssbump" "1"
+	"$surfaceprop" "snow"
+	"%tooltexture" "winter/rockwall014"
+	"$normalmapalphaenvmapmask" 1
+	//$envmap "env_cubemap"	
+	//$envmaptint "[0.5 0.5 0.5]"
+	//"$detail" "Overlays/detail004"
+	//"$detailscale" "[2.1 4.2]"
+	//"$detailblendmode" "0"
+	//"$detailblendfactor" "1"
+
+
+	"%keywords" "tf"
+}
