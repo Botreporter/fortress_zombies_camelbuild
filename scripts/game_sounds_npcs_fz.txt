@@ -73,3 +73,27 @@
 	"wave"			"npc/nzombies/sprint4.wav"
 	"wave"			"npc/nzombies/sprint5.wav"
 }
+
+"FZZombie.LimbGore"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"VOL_NORM"
+	"pitch"			"80, 110"
+	"wave"			"player/gore1.wav"
+	"wave"			"player/gore2.wav"
+	"wave"			"player/gore3.wav"
+	"wave"			"player/gore4.wav"
+	"wave"			"player/gore5.wav"
+	"wave"			"player/gore6.wav"
+	"wave"			"player/gore7.wav"
+}
+
+"FZZombie.GibGore"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"VOL_NORM"
+	"pitch"			"80, 120"
+	"wave"			"player/gibdeath1.wav"
+}
