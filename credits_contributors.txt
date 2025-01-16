@@ -5,12 +5,7 @@ Stachekip: Merc Voice (Voice Actor)
 Open Fortress: Mercenary weapons, cosmetics, and model
 
 
-MacRipley: Fuel / Oil Spills 1
-IceFlower: Metaltruss001 variants
-Tiftid: sky_dystopia
 
-Diva Dan: Ice Pack
-https://tf2maps.net/downloads/diva-dans-ice-pack.5553/
 
 
 -== FORTRESS ZOMBIES TEAM ==-
@@ -27,6 +22,13 @@ Wendy: texturer, mapper
 crowbar: mapper
 
 -
+
+MacRipley: Fuel / Oil Spills 1
+IceFlower: Metaltruss001 variants
+Tiftid: sky_dystopia
+
+Diva Dan: Ice Pack
+https://tf2maps.net/downloads/diva-dans-ice-pack.5553/
 
 -LFE TEAM 
 Nicknine - Original LF Dev
