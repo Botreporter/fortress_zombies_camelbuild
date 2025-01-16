@@ -106,3 +106,6 @@ scripts/tf_inventory.txt
 ServerConfig.vdf
 tf2_playerstats.dmx
 GameState.txt
+*.vmf
+*.vmx
+*.ent
