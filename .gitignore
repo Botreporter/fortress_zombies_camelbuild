@@ -114,3 +114,5 @@ GameState.txt
 *.prt
 *.lin
 *.ain
+*.ent
+*.ain
