@@ -503,10 +503,6 @@
 			"item_class"		"tf_weapon_cannon"
 			"craft_class"		"weapon"
 			"craft_material_type"		"weapon"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
 			"tags"
 			{
 				"can_deal_damage"		"1"
@@ -1595,8 +1591,9 @@
 			"image_inventory"	"backpack/weapons/w_models/w_stickybomb_launcher"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/c_models/c_stickybomb_launcher/c_stickybomb_launcher.mdl"
-			"attach_to_hands"	"1"
+			"model_world"	"models/weapons/c_models/c_stickybomb_launcher/c_stickybomb_launcher.mdl"
+			"model_player"	"models/weapons/v_models/v_stickybomb_launcher_demo.mdl"
+			"attach_to_hands"	"2"
 			"static_attrs"
 			{
 				"weapon_stattrak_module_scale"			"0.9"
@@ -1658,12 +1655,13 @@
 			"min_ilevel"		"10"
 			"max_ilevel"		"10"
 			"propername"		"1"
-			"attach_to_hands"	"1"
 			"inspect_panel_dist" "55"
 			"image_inventory"	"backpack/workshop/weapons/c_models/c_lochnload/c_lochnload"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/workshop/weapons/c_models/c_lochnload/c_lochnload.mdl"
+			"model_player"	"models/weapons/v_models/v_lochnload_demo.mdl"
+			"attach_to_hands"	"2"
 			"used_by_classes"
 			{
 				"demoman"	"1"
@@ -2163,6 +2161,11 @@
 				{
 					"attribute_class"	"click_fire"
 					"value"	"1"
+				}
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"	"0.25"
 				}
 			}
 			"visuals"
@@ -2941,7 +2944,7 @@
 			"name"			"Loose Cannon"
 			"prefab"		"weapon_demo_cannon"
 			"particle_suffix" 	"loose_cannon"
-			"show_in_armory"	"1"
+			"show_in_armory"	"0"
 			"tags"
 			{
 				"can_be_festivized"		"1"
@@ -5485,6 +5488,11 @@
 					"attribute_class"	"max_ammo"
 					"value" "40"
 				}
+				"spread penalty"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value" "0.15"
+				}
 			}
 			
 			"visuals"
@@ -6300,7 +6308,7 @@
 			"attach_to_hands" "2"
 			"used_by_classes"
 			{
-				"soldier"	"1"
+				"soldier"	"0"
 			}
 			"static_attrs"
 			{
@@ -6470,7 +6478,7 @@
 				"weapon spread bonus"
 				{
 					"attribute_class"	"mult_spread_scale"
-					"value"	"0.70"
+					"value"	"0.25"
 				}
 				"weapon can headshot"
 				{
@@ -6700,7 +6708,7 @@
 		{
 			"name"	"Raygun MK2" // This also sucks :3 - Vis
 			"prefab"	"valve"
-			"item_class"	"tf_weapon_raygunMK2"
+			"item_class"	"tf_weapon_raygunmk2"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -6727,7 +6735,7 @@
 			"attach_to_hands" "2"
 			"used_by_classes"
 			{
-				"soldier"	"1"
+				"soldier"	"0"
 			}
 			"static_attrs"
 			{
@@ -6755,6 +6763,11 @@
 				{
 					"attribute_class"	"max_ammo"
 					"value" "162"
+				}
+				"Projectile speed increased"
+				{
+					"attribute_class"	"mult_projectile_speed"
+					"value"	"3"
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
