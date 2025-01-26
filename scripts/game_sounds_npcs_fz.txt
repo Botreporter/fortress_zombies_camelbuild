@@ -94,6 +94,6 @@
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_80dB"
 	"volume"		"VOL_NORM"
-	"pitch"			"80, 120"
+	"pitch"			"70, 120"
 	"wave"			"player/gibdeath1.wav"
 }
