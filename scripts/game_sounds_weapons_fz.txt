@@ -329,3 +329,45 @@
 	"pitch"		"90,105"
 	"wave"		"weapons/trenchgun_shoot.wav"
 }
+
+//AK47
+"Weapon_ak47.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"pitch"		"90,105"
+	"wave"		"weapons/ak47_shoot.wav"
+}
+"Weapon_ak47.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"pitch"		"90,105"
+	"wave"		"weapons/ak47_shoot_crit.wav"
+}
+"Weapon_ak47.Draw"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"pitch"		"90,105"
+	"wave"		"weapons/ak47_draw.wav"
+}
+"Weapon_ak47.ClipIn"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"pitch"		"90,105"
+	"wave"		"weapons/ak47_ClipIn.wav"
+}
+"Weapon_ak47.ClipOut"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"pitch"		"90,105"
+	"wave"		"weapons/ak47_ClipOut.wav"
+}

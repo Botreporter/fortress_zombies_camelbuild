@@ -1,3 +1,28 @@
+FORTRESS ZOMBIES
+
+-== FORTRESS ZOMBIES TEAM ==-
+GoodFishMan: lead, mapper, coder
+Goopswagger: lead, coder, modeler, texturer
+Vvis: lead, coder, modeler, texturer
+
+gS arson: Animator
+Pureadvantagecamel: mapper, texturer
+PJX: mapper
+Apollyon: mapper
+Tangerine Paint: modeler, texturer
+Wendy: texturer, mapper
+crowbar: mapper
+
+-
+
+MacRipley: Fuel / Oil Spills 1
+IceFlower: Metaltruss001 variants
+Tiftid: sky_dystopia
+
+-CONTRIBUTORS
+Stachekip: Merc Voice (Voice Actor)
+Open Fortress: Mercenary weapons, cosmetics, and model
+
 FORTRESS CONNECTED: A TF2 CO-OP/PVP MOD
 
 -FC TEAM
