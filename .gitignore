@@ -119,3 +119,4 @@ GameState.txt
 *.vmf
 /maps/graphs
 /screenshots
+*.cache
