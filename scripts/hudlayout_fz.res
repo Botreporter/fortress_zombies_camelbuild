@@ -24,4 +24,16 @@
 		"enabled" 				"1"
 		"proportionaltoparent"	"1"
 	}
+	
+	"CTFBuyTargetID"
+	{
+		"fieldName" 			"CTFBuyTargetID"
+		"xpos"					"c100"
+		"ypos"					"cs-0.5"
+		"wide"					"130"
+		"tall"					"65"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"proportionaltoparent"	"1"
+	}
 }
