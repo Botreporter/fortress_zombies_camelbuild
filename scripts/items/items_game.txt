@@ -4917,8 +4917,8 @@
 			"headshot_multiplier" 		"1.5"
 		    "visuals"
 			{
-				"sound_single_shot"		"Weapon_AR.Single"
-				"sound_burst"			"Weapon_AR.SingleCrit"
+				"sound_single_shot"		"Weapon_ak47.Single"
+				"sound_burst"			"Weapon_ak47.SingleCrit"
 				"sound_reload"			"Weapon_AR.WorldReload"
 			}
 			"attributes"
@@ -5049,7 +5049,7 @@
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"Rifle"
-			"item_name"			"AK47"
+			"item_name"	"Assault Rifle"
 			"item_description"	"Model from Open Fortress"
 			"item_slot"			"primary"
 			"item_quality"		"unique"
@@ -5065,8 +5065,8 @@
 			"headshot_multiplier" 		"1.5"
 		    "visuals"
 			{
-				"sound_single_shot"		"Weapon_ak47.Single"
-				"sound_burst"			"Weapon_ak47.SingleCrit"
+				"sound_single_shot"		"Weapon_AR.Single"
+				"sound_burst"			"Weapon_AR.SingleCrit"
 				"sound_reload"			"Weapon_AR.WorldReload"
 			}
 			"attributes"
@@ -5188,6 +5188,78 @@
 				{
 					"attribute_class"	"max_ammo"
 					"value" "210"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
+		}
+		"1507"
+		{
+			"name"	"Light SMG"
+			"item_class"	"tf_weapon_smg"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+				"can_headshot"			"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"SMG"
+			"item_slot"					"secondary"
+			"item_name"	"Light SMG"
+			"item_slot"	"secondary"
+			"item_quality"		"unique"
+			"anim_slot"			"secondary"
+			"item_logname"	"lightsmg"
+			"item_iconname"	"lightsmg"
+			"headshot_multiplier" 		"1.3"
+			"image_inventory"	"backpack/weapons/w_models/w_assaultrifle"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models\weapons\v_models\v_mp5.mdl"
+			"model_world"	"models/weapons/c_models/c_mp5/c_mp5.mdl"
+			"attach_to_hands"	"2"
+		    "visuals"
+			{
+				"sound_single_shot"		"Weapon_SMG_DM.Single"
+				"sound_burst"			"Weapon_SMG_DM.Single"
+			}
+			"attributes"
+			{
+				"mod max primary clip override"
+				{
+					"attribute_class"	"mod_max_primary_clip_override"
+					"value"	"25"
+				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"0.8"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"1.2"
+				}
+				"weapon can headshot"
+				{
+					"attribute_class"	"allow_headshot"
+					"value"	"1"
+				}
+				"spawn ammo override"
+				{
+					"attribute_class"	"mod_spawn_ammo_override"
+					"value"	"150"
+				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "150"
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"

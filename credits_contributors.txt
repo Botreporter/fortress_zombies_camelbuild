@@ -1,4 +1,35 @@
-Diva Dan: Ice Pack
+FORTRESS ZOMBIES
+
+-CONTRIBUTORS
+Stachekip: Merc Voice (Voice Actor)
+Open Fortress: Mercenary weapons, cosmetics, and model
+
+-== FORTRESS ZOMBIES TEAM ==-
+GoodFishMan: lead, mapper, coder
+Goopswagger: lead, coder, modeler, texturer
+Vvis: lead, coder, modeler, texturer
+
+gS arson: Animator
+Pureadvantagecamel: mapper, texturer
+PJX: mapper
+Apollyon: mapper
+Tangerine Paint: modeler, texturer
+Wendy: texturer, mapper
+crowbar: mapper
+
+-
+
+MacRipley: Fuel / Oil Spills 1
+IceFlower: Metaltruss001 variants
+Tiftid: sky_dystopia
+
+r0nii: wooden platforms -
+https://tf2maps.net/downloads/wooden-platforms.10511/
+
+Diva Dan: Murky Assets -
+https://tf2maps.net/downloads/murky-vmf-assets.16801/
+
+Diva Dan: Ice Pack -
 https://tf2maps.net/downloads/diva-dans-ice-pack.5553/
 
 -LFE TEAM 
