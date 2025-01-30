@@ -117,3 +117,5 @@ GameState.txt
 *.ent
 *.ain
 *.vmf
+/maps/graphs
+/screenshots
