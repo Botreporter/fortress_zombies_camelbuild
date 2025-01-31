@@ -9,7 +9,6 @@ game_sounds_manifest
 	"precache_file"  	"scripts/gamesounds/game_sounds_vo_handmade.txt"
 	"precache_file"		"scripts/game_sounds_vo_tf2c.txt"
 	"preload_file"		"scripts/game_sounds_ui_fc.txt"
-	"precache_file"		"scripts/game_sounds_fc.txt"
 	"precache_file"		"scripts/game_sounds_npcs_fc.txt"
 	"precache_file"		"scripts/game_sounds_grenades_fc.txt"
 	"precache_file"		"scripts/game_sounds_weapons_fz.txt"

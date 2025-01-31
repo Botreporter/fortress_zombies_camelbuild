@@ -88,9 +88,9 @@ particles_manifest
 	"file"		"!particles/heal_ticker.pcf"	
 	"file"		"!particles/incendiaryrocket.pcf"	
 	"file"		"!particles/medic_infection.pcf"	
-	"file"		"!particles/madieval_fx.pcf"	
+	"file"		"!particles/medieval_fx.pcf"	
 	"file"		"!particles/muzzle_flash_viewmodel.pcf"	
-	"file"		"!particles/nailgrenadeejet.pcf"	
+	"file"		"!particles/nailgrenadejet.pcf"	
 	"file"		"!particles/napalm_explosion.pcf"	
 	"file"		"!particles/smoke_disappear.pcf"	
 	"file"		"!particles/sniper_rifle.pcf"	
@@ -117,12 +117,8 @@ particles_manifest
 	"file"		"particles/glados.pcf"
 	"file"		"particles/neurotoxins.pcf"
 	"file"		"particles/finale_fx.pcf"
- 
-//ep1 particle
-	"file"		"particles/ep1_fx.pcf"
 
 //hl2
-	"file"		"!particles/blood_impact_hl2.pcf"
 	"file"		"particles/vehicle.pcf"
 	"file"		"particles/dust_bombdrop.pcf"
 	"file"		"particles/building_explosion.pcf"

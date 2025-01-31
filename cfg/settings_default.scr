@@ -57,17 +57,7 @@ DESCRIPTION SERVER_OPTIONS
 	"maxplayers"
 	{
 		"#Valve_Max_Players"
-		{
-			LIST
-			"#lfce_Maxplayer_One"		"1"
-			"#lfce_Maxplayer_Two"		"2"
-			"#lfce_Maxplayer_Four"		"4"
-			"#lfce_Maxplayer_Eight"		"8"
-			"#lfce_Maxplayer_Nine"		"9"
-			"#lfce_Maxplayer_Sixteen"	"16"
-			"#lfce_Maxplayer_ThirtyTwo"	"32"
-			"#lfce_Maxplayer_SixyFour"	"64"
-		}
+		{ NUMBER 0 16 }
 		{ "16" }
 	}
 	
@@ -255,14 +245,6 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#lfce_AllowReviveMarker"
 		"#Tooltip_lfce_AllowReviveMarker"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"fc_allow_ignite_prop"
-	{
-		"#lfce_AllowIgniteProp"
-		"#Tooltip_lfce_AllowIgniteProp"
 		{ BOOL }
 		{ "1" }
 	}
@@ -552,12 +534,6 @@ DESCRIPTION SERVER_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-	
-	"category4"
-	{
-		" "
-		{ CATEGORY }
-	}
 
 	"category5"
 	{
@@ -637,12 +613,6 @@ DESCRIPTION SERVER_OPTIONS
 
 	"category6"
 	{
-		" "
-		{ CATEGORY }
-	}
-
-	"category7"
-	{
 		"#createserver_category4"
 		{ CATEGORY }
 	}
@@ -689,13 +659,7 @@ DESCRIPTION SERVER_OPTIONS
 		{ "0" }
 	}
 	
-	"category8"
-	{
-		" "
-		{ CATEGORY }
-	}
-
-	"category9"
+	"category7"
 	{
 		"#createserver_category5"
 		{ CATEGORY }
