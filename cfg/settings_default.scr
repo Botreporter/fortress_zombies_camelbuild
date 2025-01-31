@@ -568,14 +568,7 @@ DESCRIPTION SERVER_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-	
-	"sv_vote_issue_autobalance_allowed"
-	{
-		"#createserver_sv_vote_issue_autobalance_allowed"
-		{ BOOL }
-		{ "0" }
-	}
-	
+
 	"sv_vote_issue_scramble_teams_allowed"
 	{
 		"#createserver_sv_vote_issue_scramble_teams_allowed"
@@ -596,14 +589,7 @@ DESCRIPTION SERVER_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
-	
-	"sv_vote_issue_extendlevel_allowed"
-	{
-		"#createserver_sv_vote_issue_extendlevel_allowed"
-		{ BOOL }
-		{ "1" }
-	}
-	
+
 	"sv_vote_issue_restart_game_allowed"
 	{
 		"#createserver_sv_vote_issue_restart_game_allowed"
