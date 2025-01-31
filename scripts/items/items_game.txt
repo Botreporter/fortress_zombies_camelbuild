@@ -2023,6 +2023,11 @@
 					"attribute_class"	"allow_headshot"
 					"value"	"1"
 				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"1"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -2167,6 +2172,11 @@
 					"attribute_class"	"mult_spread_scale"
 					"value"	"0.25"
 				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"1"
+				}
 			}
 			"visuals"
 			{
@@ -2243,6 +2253,11 @@
 				{
 					"attribute_class"	"allow_headshot"
 					"value"	"1"
+				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"1"
 				}
 			}			
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
@@ -4785,6 +4800,11 @@
 					"attribute_class"	"allow_headshot"
 					"value"	"1"
 				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"1"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -4973,6 +4993,11 @@
 					"attribute_class"	"burst_delay"
 					"value"	"0.4"
 				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"2"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -5065,8 +5090,8 @@
 			"headshot_multiplier" 		"1.5"
 		    "visuals"
 			{
-				"sound_single_shot"		"Weapon_AR.Single"
-				"sound_burst"			"Weapon_AR.SingleCrit"
+				"sound_single_shot"		"Weapon_ak47.Single"
+				"sound_burst"			"Weapon_ak47.SingleCrit"
 				"sound_reload"			"Weapon_AR.WorldReload"
 			}
 			"attributes"
@@ -5110,6 +5135,11 @@
 				{
 					"attribute_class"	"max_ammo"
 					"value" "180"
+				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"3"
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
@@ -5189,6 +5219,11 @@
 					"attribute_class"	"max_ammo"
 					"value" "210"
 				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"2"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -5261,6 +5296,16 @@
 					"attribute_class"	"max_ammo"
 					"value" "150"
 				}
+				"max ammo override"
+				{
+					"attribute_class"	"max_ammo"
+					"value" "150"
+				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"1"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
@@ -5318,6 +5363,11 @@
 				{
 					"attribute_class"	"max_ammo"
 					"value" "48"
+				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"2"
 				}
 			}
 			
@@ -5389,6 +5439,11 @@
 					"attribute_class" 	"fixed_shot_pattern"
 					"value" "1"
 				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"2"
+				}
 			}
 			"visuals"
 			{
@@ -5448,6 +5503,11 @@
 				{
 					"attribute_class"	"set_scattergun_no_reload_single"
 					"value"	"1"
+				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"1"
 				}
 			}
 		}
@@ -5565,6 +5625,11 @@
 					"attribute_class"	"mult_spread_scale"
 					"value" "0.15"
 				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"2"
+				}
 			}
 			
 			"visuals"
@@ -5659,6 +5724,11 @@
 					"attribute_class"	"mult_player_movespeed"
 					"value"	"0.8"
 				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"3"
+				}
 			}
 			
 			"visuals"
@@ -5747,6 +5817,11 @@
 					"attribute_class"	"mult_spread_scale"
 					"value" "2.0"
 				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"2"
+				}
 			}
 			"static_attrs"
 			{
@@ -5809,6 +5884,11 @@
 				{
 					"attribute_class" 	"mult_bullets_per_shot"
 					"value" "2.0"
+				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"1"
 				}
 			}
 			
@@ -5887,6 +5967,11 @@
 				{
 					"attribute_class"	"max_ammo"
 					"value" "192"
+				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"2"
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
@@ -6044,6 +6129,11 @@
 					"attribute_class"	"mult_player_movespeed"
 					"value"	"0.8"
 				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"2"
+				}
 			}
 		}
 		"1518"
@@ -6120,6 +6210,11 @@
 				{
 					"attribute_class"	"mult_dmg"
 					"value"	"1.45"
+				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"3"
 				}
 			}
 			"static_attrs"
@@ -6202,6 +6297,11 @@
 				{
 					"attribute_class"	"burst_delay"
 					"value"	"0.2"
+				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"1"
 				}
 			}
 			
@@ -6493,6 +6593,11 @@
 					"attribute_class"	"projectile_penetration"
 					"value"		"1"
 				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"2"
+				}
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -6581,6 +6686,11 @@
 				{
 					"attribute_class"	"mod_recoil_angle"
 					"value" "1"
+				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"2"
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
@@ -6677,6 +6787,11 @@
 					"attribute_class"	"secondary_projectile_override_number"
 					"value"		"33"
 				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"2"
+				}
 
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
@@ -6769,6 +6884,11 @@
 				{
 					"attribute_class"	"mod_max_primary_clip_override"
 					"value"	"4"
+				}
+				"projectile penetration"
+				{
+					"attribute_class"	"projectile_penetration"
+					"value"		"1"
 				}
 			}
 			"visuals"
