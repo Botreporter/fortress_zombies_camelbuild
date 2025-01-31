@@ -1934,34 +1934,6 @@
 			"width"	"128"
 			"height" "256"
 		}
-		
-		"hud_menu_medic_red"
-		{
-			"file"		"vgui/class_sel_sm_medic_red"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_sniper_red"
-		{
-			"file"		"vgui/class_sel_sm_sniper_red"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_spy_red"
-		{
-			"file"		"vgui/class_sel_sm_spy_red"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}	
-				
 		"hud_menu_scout_blu"
 		{
 			"file"		"vgui/class_sel_sm_scout_blu"
@@ -2015,61 +1987,6 @@
 			"width"	"128"
 			"height" "256"
 		}
-		
-		"hud_menu_medic_blu"
-		{
-			"file"		"vgui/class_sel_sm_medic_blu"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_sniper_blu"
-		{
-			"file"		"vgui/class_sel_sm_sniper_blu"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-
-		"hud_menu_spy_blu"
-		{
-			"file"		"vgui/class_sel_sm_spy_blu"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}								
-
-		"hud_menu_combinesoldier_blu"
-		{
-			"file"		"vgui/class_sel_sm_combinesoldier_blu"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}				
-
-		"hud_menu_zombie"
-		{
-			"file"		"vgui/class_sel_sm_zombie"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}											
-
-		"hud_menu_antlion"
-		{
-			"file"		"vgui/class_sel_sm_antlion"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
 		"hud_menu_scout_grn"
 		{
 			"file"		"vgui/class_sel_sm_scout_green"
@@ -2123,33 +2040,6 @@
 			"width"	"128"
 			"height" "256"
 		}
-		
-		"hud_menu_medic_grn"
-		{
-			"file"		"vgui/class_sel_sm_medic_green"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_sniper_grn"
-		{
-			"file"		"vgui/class_sel_sm_sniper_green"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_spy_grn"
-		{
-			"file"		"vgui/class_sel_sm_spy_green"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}	
 
 		"hud_menu_scout_ylw"
 		{
@@ -2204,33 +2094,6 @@
 			"width"	"128"
 			"height" "256"
 		}
-		
-		"hud_menu_medic_ylw"
-		{
-			"file"		"vgui/class_sel_sm_medic_yellow"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_sniper_ylw"
-		{
-			"file"		"vgui/class_sel_sm_sniper_yellow"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_spy_ylw"
-		{
-			"file"		"vgui/class_sel_sm_spy_yellow"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}	
 
 		"hud_menu_sentry_build"
 		{

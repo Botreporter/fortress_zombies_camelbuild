@@ -344,6 +344,7 @@
 
 	"wave"			")weapons/rocket_quad_shoot.wav"
 }
+
 "Weapon_Quad.SingleCrit"
 {
 	"channel"		"CHAN_WEAPON"
@@ -354,7 +355,7 @@
 	"wave"			")weapons/rocket_quad_shoot_crit.wav"
 }
 
-}"Weapon_DEagle.Single"
+"Weapon_DEagle.Single"
 {
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"

@@ -1,0 +1,7 @@
+"unlitGeneric"
+{
+	"$baseTexture" "vgui/store/innershadow_border"
+	"$allowAlphaToCoverage" 1
+	"$alphatest" 1
+}
+
