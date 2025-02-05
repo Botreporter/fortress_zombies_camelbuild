@@ -58,7 +58,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Max_Players"
 		{ NUMBER 0 16 }
-		{ "16" }
+		{ "4" }
 	}
 	
 	"coplay_joinfilter"
@@ -71,7 +71,7 @@ DESCRIPTION SERVER_OPTIONS
 			"#coplay_joinfilter_friends"	"1"
 			"#coplay_joinfilter_anyone"		"2"
 		}
-		{ "1" }
+		{ "0" }
 	}
 
 	"sv_password"
@@ -108,28 +108,7 @@ DESCRIPTION SERVER_OPTIONS
 		{ NUMBER 0 -1 }
 		{ "0" }
 	}
-	
-	"mp_flashlight"
-	{
-		"#lfce_AllowFlashlight"
-		{ BOOL }
-		{ "1" }
-	}
-	
-	"fc_armor_enabled"
-	{
-		"Allow Armor"
-		{ BOOL }
-		{ "1" }
-	}
-	
-	"mp_reset"
-	{
-		"#fc_reset"
-		{ BOOL }
-		{ "1" }
-	}
-	
+
 	"mp_idledealmethod"
 	{
 		"#lfce_AutoKick"
@@ -145,7 +124,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#lfce_IdleKickTime"
 		{ NUMBER 0 60 }
-		{ "3" }
+		{ "4" }
 	}
 
 	"tf_weapon_criticals"
@@ -164,19 +143,6 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 	
-	"tf_gravetalk"
-	{
-		"#lfce_GraveTalk"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"category1"
-	{
-		"#TF_OptionCategory_Extended"
-		{ CATEGORY }
-	}
-	
 	"sv_difficulty"
 	{
 		"#lfe_Difficulty"
@@ -190,55 +156,10 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 
-	"fc_player_bots"
+	"category1"
 	{
-		"#lfce_PlayerBots"
-		{
-			LIST
-			"#NoOverride"		"0"
-			"#ForceDisable"		"1"
-			"#ForceEnable"		"2"
-		}
-		{ "0" }
-	}
-
-	"fc_coop_spawn_search"
-	{
-		"#lfce_CoopSearchSpot"
-		"#Tooltip_lfce_CoopSearchSpot"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"fc_npc_boss_addhealth_per_player"
-	{
-		"#lfce_NpcBossHealth"
-		{ BOOL }
-		{ "1" }
-	}	
-
-	"fc_use_hl2_player_hull"
-	{
-		"#lfce_HL2Hull"
-		"#Tooltip_lfce_HL2Hull"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"fc_force_legacy"
-	{
-		"#lfce_ForceLegacy"
-		"#Tooltip_lfce_ForceLegacy"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"sv_dynamicnpcs"
-	{
-		"#lfce_DynamicNPC"
-		"#Tooltip_lfce_DynamicNPC"
-		{ BOOL }
-		{ "0" }
+		"#TF_OptionCategory_Extended"
+		{ CATEGORY }
 	}
 
 	"fc_allow_revive_marker"
@@ -255,14 +176,6 @@ DESCRIPTION SERVER_OPTIONS
 		"#Tooltip_lfce_AllowSpectateNPC"
 		{ BOOL }
 		{ "0" }
-	}
-
-	"fc_allow_team_weapons"
-	{
-		"#lfce_AllowTeamWeapons"
-		"#Tooltip_lfce_AllowTeamWeapons"
-		{ BOOL }
-		{ "1" }
 	}
 	
 	"fc_allow_thirdperson"
@@ -287,204 +200,6 @@ DESCRIPTION SERVER_OPTIONS
 		{ NUMBER -1 999 }
 		{ "1.2" }
 	}
-
-	"fc_duckjump"
-	{
-		"#lfce_AllowDuckJump"
-		"#Tooltip_lfce_AllowDuckJump"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"fc_hl2_weapon_criticals"
-	{
-		"#lfce_NPCCritical"
-		"#Tooltip_lfce_NPCCritical"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"fc_hl2_weapon_criticals_melee"
-	{
-		"#lfce_NPCMeleeCritical"
-		"#Tooltip_lfce_NPCMeleeCritical"
-		{ BOOL }
-		{ "1" }
-	}
-	
-	"fc_episodic_flashlight"
-	{
-		"#lfce_EpisodicFlashlight"
-		"#Tooltip_lfce_EpisodicFlashlight"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"category2"
-	{
-		"#lfce_ServerOptionCategory_HL1"
-		{ CATEGORY }
-	}
-
-	"sv_hl1_ff"
-	{
-		"#lfce_HL1FriendlyFire"
-		"#Tooltip_lfce_HL1FriendlyFire"
-		{ BOOL }
-		{ "0" }
-    }
-
-	"sv_hl1_hd"
-	{
-		"#lfce_HL1HDModels"
-		"#Tooltip_lfce_HL1HDModels"
-		{ BOOL }
-		{ "0" }
-	}
-	
-	"category3"
-	{
-		"#lfce_ServerOptionCategory_CoopClasslimit"
-		{ CATEGORY }
-	}
-
-	"fc_classlimit_scout"
-	{
-		"#TF_Class_Name_Scout"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-
-	"fc_classlimit_sniper"
-	{
-		"#TF_Class_Name_Sniper"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-
-	"fc_classlimit_soldier"
-	{
-		"#TF_Class_Name_Soldier"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-
-	"fc_classlimit_demoman"
-	{
-		"#TF_Class_Name_Demoman"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-
-	"fc_classlimit_medic"
-	{
-		"#TF_Class_Name_Medic"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-
-	"fc_classlimit_heavy"
-	{
-		"#TF_Class_Name_HWGuy"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-
-	"fc_classlimit_pyro"
-	{
-		"#TF_Class_Name_Pyro"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-
-	"fc_classlimit_spy"
-	{
-		"#TF_Class_Name_Spy"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-	
-	"fc_classlimit_engineer"
-	{
-		"#TF_Class_Name_Engineer"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-	
-	"fc_classlimit_civilian"
-	{
-		"#TF_Class_Name_Civilian"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-	
-	"fc_classlimit_john"
-	{
-		"#TF_Class_Name_John"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-	
-	"fc_classlimit_mercenary"
-	{
-		"#TF_Class_Name_Mercenary"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-	
-	"fc_classlimit_combine"
-	{
-		"#TF_Class_Name_Combine"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-	
-	"fc_classlimit_enforcer"
-	{
-		"#TF_Class_Name_ZombieFast"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-	
-	"fc_classlimit_antlion"
-	{
-		"#TF_Class_Name_Antlion"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-	
-	"fc_classlimit_saxton"
-	{
-		"#TF_Class_Name_Saxton"
-		{ NUMBER -1 32 }
-		{ "-1" }
-	}
-	"tf_bot_quota"
-	{
-		"#createserver_tf_bot_quota"
-		{ NUMBER 0 32 }
-		{ "0" }
-	}
-
-	"tf_bot_difficulty"
-	{
-		"#createserver_tf_bot_difficulty"
-		{
-			LIST
-			"#TF_Bot_Difficulty0"	"0"
-			"#TF_Bot_Difficulty1"	"1"
-			"#TF_Bot_Difficulty2"	"2"
-			"#TF_Bot_Difficulty3"	"3"
-		}
-		{ "1" }
-	}
-	
-	"tf_weapon_criticals"
-	{
-		"#createserver_tf_weapon_criticals"
-		{ BOOL }
-		{ "1" }
-	}
 	
 	"tf_use_fixed_weaponspreads"
 	{
@@ -493,9 +208,15 @@ DESCRIPTION SERVER_OPTIONS
 		{ "0" }
 	}
 	
-	"mp_teams_unbalance_limit"
+	"category2"
 	{
-		"#createserver_mp_teams_unbalance_limit"
+		"#lfce_ServerOptionCategory_CoopClasslimit"
+		{ CATEGORY }
+	}
+	
+	"tf_weapon_criticals"
+	{
+		"#createserver_tf_weapon_criticals"
 		{ BOOL }
 		{ "1" }
 	}
@@ -506,36 +227,15 @@ DESCRIPTION SERVER_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
-	
-	"mp_autoteambalance"
-	{
-		"#createserver_mp_autoteambalance"
-		{ BOOL }
-		{ "1" }
-	}
-	
+
 	"mp_disable_respawn_times"
 	{
 		"#createserver_mp_disable_respawn_times"
 		{ BOOL }
 		{ "0" }
 	}
-	
-	"sv_alltalk"
-	{
-		"#createserver_sv_alltalk"
-		{ BOOL }
-		{ "0" }
-	}
-	
-	"tf_grapplinghook_enable"
-	{
-		"#createserver_tf_grapplinghook_enable"
-		{ BOOL }
-		{ "0" }
-	}
 
-	"category5"
+	"category3"
 	{
 		"#createserver_category3"
 		{ CATEGORY }
@@ -546,20 +246,6 @@ DESCRIPTION SERVER_OPTIONS
 		"#createserver_sv_allow_votes"
 		{ BOOL }
 		{ "1" }
-	}
-	
-	"sv_vote_quorum_ratio"
-	{
-		"#createserver_sv_vote_quorum_ratio"
-		{ NUMBER 0.1 1 }
-		{ "0.6" }
-	}
-	
-	"sv_vote_creation_timer"
-	{
-		"#createserver_sv_vote_creation_timer"
-		{ NUMBER 0 -1 }
-		{ "150" }
 	}
 	
 	"sv_vote_issue_kick_allowed"
@@ -593,81 +279,6 @@ DESCRIPTION SERVER_OPTIONS
 	"sv_vote_issue_restart_game_allowed"
 	{
 		"#createserver_sv_vote_issue_restart_game_allowed"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"category6"
-	{
-		"#createserver_category4"
-		{ CATEGORY }
-	}
-	
-	"mapcyclefile"
-	{
-		"#createserver_mapcyclefile"
-		{ STRING }
-		{ "mapcycle.txt" }
-	}
-	
-	"mp_timelimit"
-	{
-		"#TF_Timelimit"
-		{ NUMBER 0 -1 }
-		{ "30" }
-	}
-	
-	"mp_match_end_at_timelimit"
-	{
-		"#createserver_mp_match_end_at_timelimit"
-		{ BOOL }
-		{ "0" }
-	}
-	
-	"mp_stalemate_enable"
-	{
-		"#createserver_mp_stalemate_enable"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"mp_winlimit"
-	{
-		"#createserver_mp_winlimit"
-		{ NUMBER 0 -1 }
-		{ "0" }
-	}
-	
-	"mp_maxrounds"
-	{
-		"#createserver_mp_maxrounds"
-		{ NUMBER 0 -1 }
-		{ "0" }
-	}
-	
-	"category7"
-	{
-		"#createserver_category5"
-		{ CATEGORY }
-	}
-	
-	"tf_flag_caps_per_round"
-	{
-		"#createserver_tf_flag_caps_per_round"
-		{ NUMBER 0 -1 }
-		{ "3" }
-	}
-	
-	"tf_ctf_bonus_time"
-	{
-		"#createserver_tf_ctf_bonus_time"
-		{ NUMBER 0 -1 }
-		{ "10" }
-	}
-	
-	"tf_flag_return_on_touch"
-	{
-		"#createserver_tf_flag_return_on_touch"
 		{ BOOL }
 		{ "0" }
 	}
