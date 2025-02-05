@@ -1,0 +1,8 @@
+Patch
+{
+	include "materials/water/water_well.vmt"
+	replace
+	{
+		$fogcolor "{53 38 2}"
+	}
+}

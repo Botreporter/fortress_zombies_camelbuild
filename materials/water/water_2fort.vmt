@@ -1,0 +1,18 @@
+Patch
+{
+	include "materials/water/water_2fort_expensive.vmt"
+	insert
+	{
+		<dx90
+		{
+		 	$fallbackmaterial "water/water_2fort_dx80"
+		}
+		$forcecheap 0
+		$refracttint "{191 179 155}"
+		$reflecttint "{230 240 255}"
+	}
+	replace
+	{
+		$fogstart -100
+	}
+}

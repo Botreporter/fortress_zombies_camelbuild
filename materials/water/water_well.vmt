@@ -1,0 +1,23 @@
+Patch
+{
+	include "materials/water/water_2fort_expensive.vmt"
+	insert
+	{
+		<dx90
+		{
+		 	$fallbackmaterial "water/water_well_dx80"
+		}
+		$forcecheap 0
+		$refracttint "{1 179 155}"
+		$reflecttint "{230 240 255}"
+	}
+	replace
+	{
+		$refractamount .2
+		$reflectamount .1
+		$bottommaterial "water/water_well_beneath.vmt"
+		$fogcolor "{24 38 53}"
+		$fogstart 1
+		$fogend 300
+	}
+}

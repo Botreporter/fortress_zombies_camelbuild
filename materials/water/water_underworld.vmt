@@ -1,0 +1,31 @@
+Patch
+{
+	include "materials/water/water_2fort_expensive.vmt"
+	insert
+	{
+		<dx90
+		{
+		 	$fallbackmaterial "water/water_2fort_dx80"
+		}
+		$forcecheap 0
+		$refracttint "{27 26 21}"
+		Proxies
+		{
+			TextureScroll
+			{
+				textureScrollVar "$bumptransform"
+				textureScrollRate .6
+				textureScrollAngle 10.00
+			}
+		}
+	}
+	replace
+	{
+		$refractamount .06
+		$reflectamount .046875
+		$bottommaterial "water/water_underworld_beneath.vmt"
+		$fogcolor "{1 1 1}"
+		$fogstart 0
+		$fogend 100
+	}
+}

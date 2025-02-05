@@ -1,0 +1,21 @@
+Patch
+{
+	include "materials/water/water_underworld.vmt"
+	replace
+	{
+		$refractamount .2
+		$reflectamount .15625
+		Proxies
+		{
+			AnimatedTexture
+			{
+				animatedtextureframerate 28.00
+			}
+			TextureScroll
+			{
+				texturescrollrate 1
+				texturescrollangle 45.00
+			}
+		}
+	}
+}

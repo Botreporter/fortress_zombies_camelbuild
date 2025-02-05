@@ -1,0 +1,14 @@
+Patch
+{
+	include "materials/water/water_sawmill.vmt"
+	replace
+	{
+		Proxies
+		{
+			TextureScroll
+			{
+				texturescrollangle 170.00
+			}
+		}
+	}
+}
