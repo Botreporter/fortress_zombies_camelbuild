@@ -1,10 +1,6 @@
 "Water"
 {
 
-	<dx90
-	{
-		 	"$fallbackmaterial" "water/water_2fort_dx80"
-	}
 
 	"%keywords" "tf"
 	//	$forcecheap 1
@@ -40,13 +36,24 @@
 	"$fogstart" "0"
 	"$fogend" "100"
 
+	"$cheapwaterstartdistance" "200"
+	"$cheapwaterenddistance" "500"
+
 	 "$temp" "[0 0]"
 	 "$curr" 0.0
 	 "$curr2" 0.0
 
+	// "$forceexpensive" 1
+	// "%compilewater" 1
+	"$reflectentities" 0
+
 	"Water_DX60"
 	{
 		"$fallbackmaterial" "nature/water_dx70"
+	}
+	"Water_DX80"
+	{
+		"$refractamount" ".5"
 	}
 
 	"Proxies"
@@ -67,8 +74,7 @@
 		}
 		"WaterLOD"
 		{
-			// fixme!  This has to be here, or material loading barfs.
-			"dummy" 0
+			
 		}
 	}
 }

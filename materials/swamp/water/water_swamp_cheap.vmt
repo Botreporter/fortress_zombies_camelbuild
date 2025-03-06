@@ -3,7 +3,7 @@
 
 
 	"%keywords" "tf"
-	//	$forcecheap 1
+	$forcecheap 1
 	
 	"%tooltexture" "dev/tfwater_normal"
 	"%compilewater" 1
@@ -13,39 +13,37 @@
 	$underwateroverlay "effects/water_warp"
 	"$envmap" "env_cubemap"	
 	"$refracttexture" "_rt_WaterRefraction"
-	"$refractamount" ".12"
-//	"$refracttint" "{88 192 44}"
+	"$refractamount" ".06"
+//	"$refracttint" "{27 26 21}"
 	"$refractblur" "1"
 
-
+	"$reflecttexture" "_rt_WaterReflection"
+	"$reflectamount" ".1"
+	"$reflecttint" "{220 230 170}"
+	"$reflectsaturation" "[0 0 1]"
 
 	"$scale" "[1 1]"
 
-	"$basetexture" "swamp/water/water_murky"
-//	"$bumpmap" "water/water_dudv"
+//	"$bumpmap" "water/tfwater001_dudv"
 	"$normalmap" "water/tfwater001_normal"
 
 	"$surfaceprop" "water"
-	"$bottommaterial" "swamp/water/water_murky_beneath.vmt"
+	"$bottommaterial" "water/water_2fort_beneath.vmt"
 	"$bumpframe" "0"
 
 	"$fogenable" 1
-	"$fogcolor" "{35 32 20}"
+	"$fogcolor" "{27 26 21}"
 	"$fogstart" "0"
-	"$fogend" "170"
+	"$fogend" "100"
 
 	 "$temp" "[0 0]"
 	 "$curr" 0.0
 	 "$curr2" 0.0
 
-	"$reflecttexture" "_rt_WaterReflection"
-	"$reflectamount" ".1"
-	"$reflecttint" "{230 210 170}"
-	"$reflectsaturation" "[0 0 1]"
-
-	"$forceexpensive" 1
-	"%compilewater" 1
-	"$reflectentities" 0
+	"Water_DX60"
+	{
+		"$fallbackmaterial" "nature/water_dx70"
+	}
 
 	"Proxies"
 	{
@@ -60,14 +58,15 @@
 		"TextureScroll"
 		{
 			"texturescrollvar" "$bumptransform"
-			"texturescrollrate" .01
+			"texturescrollrate" .6
 			"texturescrollangle" 10.00
 		}
 		"WaterLOD"
 		{
-			// fixme!  This has to be here, or material loading barfs.
-			"dummy" 0
+			
 		}
-
 	}
 }
+
+// TF2Maps.net Swamp Theme
+// http://tf2maps.net
