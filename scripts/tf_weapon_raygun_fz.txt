@@ -8,12 +8,12 @@ WeaponData
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 	
 	// Primary Attributes
-	"Damage"				"800"
+	"Damage"				"900"
 	"Range"					"8192"
 	"BulletsPerShot"		"1"
 	"Spread"				"0.0675"
-	"PunchAngle"			"2.0"
-	"TimeFireDelay"			"0.8"
+	"PunchAngle"			"3.0"
+	"TimeFireDelay"			"0.5"
 	"TimeIdle"				"5.0"
 	"TimeIdleEmpty"			"0.25"
 	"TimeReloadStart"		"0.1"

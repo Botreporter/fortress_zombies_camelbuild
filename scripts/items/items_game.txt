@@ -6456,7 +6456,7 @@
 				"can_deal_critical_damage"	"1"
 				"can_deal_long_distance_damage"	"1"
 			}
-			"show_in_armory"	"1"
+			"show_in_armory"	"0"
 			"item_type_name"	"Raygun"
 			"item_name"	"Raygun"
 			"item_slot"	"secondary"
@@ -6471,10 +6471,6 @@
 			"model_player"	"models/weapons/v_models/v_raygun.mdl"
 			"model_world"	"models/weapons/w_models/w_raygun.mdl"
 			"attach_to_hands" "2"
-			"used_by_classes"
-			{
-				"soldier"	"0"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"10 -3 -10"				
@@ -6913,10 +6909,6 @@
 			"model_player"	"models/weapons/v_models/v_raygunmk2/v_bo2_raygunmk2.mdl"
 			"model_world"	"models/weapons/w_models/v_raygunmk2/w_raygun.mdl"
 			"attach_to_hands" "2"
-			"used_by_classes"
-			{
-				"soldier"	"0"
-			}
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"10 -3 -10"				

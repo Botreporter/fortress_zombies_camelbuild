@@ -2,10 +2,12 @@
 {
 	1	"lfce_background01"
 	2	"lfce_background02"
+	3	"lfce_background03"
 	
 }
 "BackgroundMaps"
 {
 	1	"lfce_background01"
 	2	"lfce_background02"
+	3	"lfce_background03"
 }
