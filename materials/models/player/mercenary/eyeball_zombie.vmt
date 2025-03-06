@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/player/mercenary/eyeball_zombie"
+	"$surfaceprop"	"flesh"
+	"$model"		1
+	"$selfillum"	1
+}
