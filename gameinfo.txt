@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game			"Fortress Zombies"
+	game			"Open Fortress Zombies: Reinfected"
 	type			"multiplayer_only"
 	GameData		"fortress_zombies.fgd"
 	icon			"resource/game"
